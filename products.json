@@ -1,0 +1,403 @@
+[
+{
+    "id": 1 , 
+    "name": "Grapes Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "100 Euro" ,
+    "image": "images/products/Bonsai/grape-bonsaii.jpg"
+}
+
+,
+
+{
+    "id": 2 , 
+    "name": "Flower Bouquet Renaissance" , 
+    "category": "Bouquet" , 
+    "price": "50 Euro" ,
+    "image": "images/products/Bouquet/renaissance.webp"
+}
+
+,
+
+{
+    "id": 3 , 
+    "name": "Guppy Plant" , 
+    "category": "Apartment Flower" , 
+    "price": "70 Euro" ,
+    "image": "images/products/Apartment Flowers/Guppy Plant.webp"
+} 
+
+,
+
+
+{
+    "id": 4 , 
+    "name": "Schefflera Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "120 Euro" ,
+    "image": "images/products/Bonsai/schefflera-bonsaii.jpg"
+}
+
+,
+
+{
+    "id": 5 , 
+    "name": "Figs Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "110 Euro" ,
+    "image": "images/products/Bonsai/figs-bonsaii.jpg"
+}
+
+,
+
+{
+    "id": 6 , 
+    "name": "Flower Bouquet Ida" , 
+    "category": "Bouquet" , 
+    "price": "40 Euro" ,
+    "image": "images/products/Bouquet/ida.webp"
+}
+
+,
+
+{
+    "id": 7 , 
+    "name": "Monstra Deliciosa Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "90 Euro" ,
+    "image": "images/products/Bonsai/monstra-deliciosa-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 8 , 
+    "name": "Lipstick Plant" , 
+    "category": "Apartment Flower" , 
+    "price": "80 Euro" ,
+    "image": "images/products/Apartment Flowers/Lipstick Plant.webp"
+}
+
+,
+
+{
+    "id": 9 , 
+    "name": "Flower Bouquet Glückskind" , 
+    "category": "Bouquet" , 
+    "price": "30 Euro" ,
+    "image": "images/products/Bouquet/glueckskind.webp"
+}
+
+,
+
+{
+    "id": 10 , 
+    "name": "Almond Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "100 Euro" ,
+    "image": "images/products/Bonsai/almond-bonsaii.jpg"
+}
+
+,
+
+{
+    "id": 11 , 
+    "name": "Ixora" , 
+    "category": "Apartment Flower" , 
+    "price": "100 Euro" ,
+    "image": "images/products/Apartment Flowers/Ixora.webp"
+}
+
+
+,
+
+{
+    "id": 12 , 
+    "name": "Flower Bouquet Sonnige Farbenpracht" , 
+    "category": "Bouquet" , 
+    "price": "50 Euro" ,
+    "image": "images/products/Bouquet/sonnige-farbenpracht.webp"
+}
+
+,
+
+
+{
+    "id": 13 , 
+    "name": "Gensing Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "120 Euro" ,
+    "image": "images/products/Bonsai/ginseng-bonsaii.jpg"
+}
+
+,
+
+{
+    "id": 14 , 
+    "name": "Geranium" , 
+    "category": "Apartment Flower" , 
+    "price": "70 Euro" ,
+    "image": "images/products/Apartment Flowers/Geranium.webp"
+}
+
+,
+
+{
+    "id": 15 , 
+    "name": "Maple Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "120 Euro" ,
+    "image": "images/products/Bonsai/maple-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 16 , 
+    "name": "Euonymus Japonicas Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "70 Euro" ,
+    "image": "images/products/Bonsai/euonymus-japonicus-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 17 , 
+    "name": "Flower Bouquet Bunter Blumentraum" , 
+    "category": "Bouquet" , 
+    "price": "40 Euro" ,
+    "image": "images/products/Bouquet/bunter blumentraum.webp"
+}
+
+,
+
+{
+    "id": 18 , 
+    "name": "Rieger Begonia" , 
+    "category": "Apartment Flower" , 
+    "price": "60 Euro" ,
+    "image": "images/products/Apartment Flowers/Rieger Begonia.webp"
+}
+
+,
+
+{
+    "id": 19 , 
+    "name": "Ulmus Parvifolia Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "80 Euro" ,
+    "image": "images/products/Bonsai/ulmus parvifolia-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 20 , 
+    "name": "Flower Bouquet Victoria" , 
+    "category": "Bouquet" , 
+    "price": "30 Euro" ,
+    "image": "images/products/Bouquet/victoria.webp"
+}
+
+,
+
+{
+    "id": 21 , 
+    "name": "Wax Begonia" , 
+    "category": "Apartment Flower" , 
+    "price": "70 Euro" ,
+    "image": "images/products/Apartment Flowers/Wax Begonia.webp"
+}
+
+,
+
+{
+    "id": 22 , 
+    "name": "Pine Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "90 Euro" ,
+    "image": "images/products/Bonsai/pine-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 23 , 
+    "name": "Bromeliad" , 
+    "category": "Apartment Flower" , 
+    "price": "60 Euro" ,
+    "image": "images/products/Apartment Flowers/Bromeliad.webp"
+}
+
+,
+
+{
+    "id": 24 , 
+    "name": "Crasula Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "110 Euro" ,
+    "image": "images/products/Bonsai/crassula-portulaca-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 25 , 
+    "name": "Pomogranate Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "90 Euro" ,
+    "image": "images/products/Bonsai/pomegranate-bonsaii.jpg"
+}
+
+,
+
+{
+    "id": 26 , 
+    "name": "Flower Bouquet Amelie" , 
+    "category": "Bouquet" , 
+    "price": "40 Euro" ,
+    "image": "images/products/Bouquet/amelie.webp"
+}
+
+,
+
+{
+    "id": 27 , 
+    "name": "Silver Vase Plant" , 
+    "category": "Apartment Flower" , 
+    "price": "80 Euro" ,
+    "image": "images/products/Apartment Flowers/Silver Vase Plant.webp"
+}
+
+,
+
+{
+    "id": 28 , 
+    "name": "Adenium Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "130 Euro" ,
+    "image": "images/products/Bonsai/adenium-bonsaii.jpg"
+}
+
+,
+
+{
+    "id": 29 , 
+    "name": "Bougainvillea Glabra Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "80 Euro" ,
+    "image": "images/products/Bonsai/bougainvillea-glabra-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 30 , 
+    "name": "Flower Bouquet Hortensien-Liebe" , 
+    "category": "Bouquet" , 
+    "price": "50 Euro" ,
+    "image": "images/products/Bouquet/hortensienliebe.webp"
+}
+
+,
+
+{
+    "id": 31 , 
+    "name": "Red Maple Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "130 Euro" ,
+    "image": "images/products/Bonsai/red-maple-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 32 , 
+    "name": "Benjamin Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "110 Euro" ,
+    "image": "images/products/Bonsai/benjaamin-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 33 , 
+    "name": "Flower Bouquet Blumenzauber" , 
+    "category": "Bouquet" , 
+    "price": "50 Euro" ,
+    "image": "images/products/Bouquet/bunter blumentraum.webp"
+}
+,
+
+{
+    "id":  34, 
+    "name": "Oak Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "130 Euro" ,
+    "image": "images/products/Bonsai/oak-bonsai.jpg"
+}
+
+,
+
+
+{
+    "id": 35 , 
+    "name": "Flowering Maple" , 
+    "category": "Apartment Flower" , 
+    "price": "110 Euro" ,
+    "image": "images/products/Apartment Flowers/Flowering Maple.webp"
+}
+
+,
+
+{
+    "id": 36 , 
+    "name": "Bambo Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "90 Euro" ,
+    "image": "images/products/Bonsai/bambooo-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 37 , 
+    "name": "Flower Bouquet Red Roses" , 
+    "category": "Bouquet" , 
+    "price": "90 Euro" ,
+    "image": "images/products/Bouquet/red roses.webp"
+}
+
+,
+
+{
+    "id": 38 , 
+    "name": "Gloxinia" , 
+    "category": "Apartment Flower" , 
+    "price": "110 Euro" ,
+    "image": "images/products/Apartment Flowers/Gloxinia.webp"
+}
+
+, 
+
+{
+    "id": 39, 
+    "name": "Salix Repens Bonsai" , 
+    "category": "Bonsai" , 
+    "price": "120 Euro" ,
+    "image": "images/products/Bonsai/salix-repens-bonsai.jpg"
+}
+
+,
+
+{
+    "id": 40, 
+    "name": "Crown-of-Thorns" , 
+    "category": "Apartment Flower" , 
+    "price": "100 Euro" ,
+    "image": "images/products/Apartment Flowers/Crown-of-Thorns.webp"
+}
+
+]

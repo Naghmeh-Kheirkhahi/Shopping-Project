@@ -2,17 +2,123 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
 
 .header {
-    background-image: url('images/woman.jpg');
+    background-image: url('/images/woman.jpg');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    /* height: 100vh; */
+    height: 150vh;
+    padding: 2rem 8rem;
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color:rgb(255, 236, 239);
+    border: 1px solid rgb(255, 236, 239);
+    box-shadow: 0 0 0 gray;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.cart i {
+    font-size: 1.3rem;
+    border: 5px solid #f17053;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.cart p {
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -1rem;
+    margin-left: 0.3rem;
+    box-shadow: 0 0 0 gray;
+}
+
+
+
+
+.phone {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.phone i {
+    font-size: 1.7rem;
+    color: #f17053;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+
+.phone p:first-child {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.phone p:last-child {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 6rem 0 6rem;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+}
+
+.home a {
+    color: #f17053 ;
+}
+
+.menu a:hover {
+    color: #f17053 ;
+    transition: all 300ms ease-in-out;
+}
+
+
+.menu i {
+    margin-bottom: -0.2rem;
+    color: rgb(126, 126, 126);
+}
+
+
+
+
+
+
+
+.logo img {
+    width: 100%;
 }
 
 

@@ -13,7 +13,7 @@
 
 <div class="header">
 
-    <div class="navbar row">
+    <div id="navbar" class="navbar row">
 
         <div class="col-1 cart">
             <p>0</p>
@@ -63,31 +63,32 @@
     </div>
 
 
-    <h1>Order your flowers online in short time</h1>
+    <div class="orderForm">
+        <h1>Order your flowers online in short time</h1>
 
-    <p>We present the most beautiful Ben Sai flowers for all tastes!</p>
+        <p>We present the most beautiful Ben Sai flowers for all tastes!</p>
 
-    <form action="">
-        <input id="order" type="text" placeholder="Your Order">
-        <input id="address" type="text" placeholder="Your Address">
-        <button>Submit Request</button>
-    </form>
-
+        <form action="">
+            <input id="order" type="text" placeholder="Your Order">
+            <input id="address" type="text" placeholder="Your Address">
+            <button id="formBtn">Submit Request</button>
+        </form>
+    </div>
 </div>
 
-<div id="products"></div>
-<p></p>
 
 
+
+<!-- How to Work Part -->
 
 <div class="howToWork">
 
     <h2>How do we work?</h2>
 
-    <p>We try to make quick and convenient services!</p>
+    <h5>We try to make quick and convenient services!</h5>
 
     <div class="row">
-        <div class="col-4">
+        <div class="col-4 ps-4 pe-4">
             <img src="images/icons/order.png" alt="">
 
             <h4>Order</h4>
@@ -95,7 +96,7 @@
             <p>The sales department will contact you to speak about all details of your order(s).</p>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 ps-4 pe-4">
             <img src="images/icons/send.png" alt="">
 
             <h4>Send</h4>
@@ -103,7 +104,7 @@
             <p>Send your order(s) as soon as possible!</p>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 ps-4 pe-4">
             <img src="images/icons/delivery.png" alt="">
 
             <h4>Delivery</h4>
@@ -111,12 +112,15 @@
             <p>Your order(s) will be in your hands!</p>
         </div>
     </div>
-
 </div>
 
 
 
 
+
+<!-- the Products part has been written in JS -->
+
+<div id="products"></div>
 
 <div class="Products">
 
@@ -134,6 +138,9 @@
             <li><a href="">APARTMENT FLOWERS</a></li>
         </ul>
     </div>
+
+
+
 
     <div class="BENSAI">
         <div class="row BENSAI1">
@@ -230,76 +237,91 @@
 
 
 
-<!-- contact us -->
+<!-- extre Div -->
 
-<div class="contact" style="background-color: #303030;">
-    <div class="row">
+<div class="pt-3 pb-3">
 
-        <div class="col-4">
-            <img src="images/icons/like-svgrepo-com.svg" alt="">
-             <div>
-                <p>The best quality</p>
-                <p>A lot of work experience</p>
-             </div>
+</div>
+
+
+
+<!-- ads features -->
+
+<div class="features row">
+    <div class="col-4 singleFeature">
+        <img src="images/icons/like-svgrepo-com.svg" alt="">
+
+        <div>
+            <p>The best quality</p>
+            <p>A lot of work experience</p>
         </div>
+    </div>
 
-        <div class="col-4">
-            <img src="images/icons/telephone-call-24-hours-svgrepo-com.svg" alt="">
-            <div>
-                <p>24/7 support</p>
-                <p>Answer your questions</p>
-             </div>
+    <div class="col-4 singleFeature">
+        <img src="images/icons/telephone-call-24-hours-svgrepo-com.svg" alt="">
+
+        <div>
+            <p>24/7 support</p>
+            <p>Answer your questions</p>
         </div>
+    </div>
 
-        <div class="col-4">
-            <img src="images/icons/lorry-svgrepo-com.svg" alt="">
-            <div>
-                <p>Free shipping</p>
-                <p>Fast shipping</p>
-             </div>
+    <div class="col-4 singleFeature">
+        <img src="images/icons/lorry-svgrepo-com.svg" alt="">
+       
+        <div>
+            <p>Free shipping</p>
+            <p>Fast shipping</p>
         </div>
-
     </div>
 </div>
 
 
 
+<!-- extre Div -->
 
-<footer style="background-color: #1b1b1b;">
+<div class="pt-3 pb-3">
 
-<div class="footerInfo">
-    <div class="row">
-        <div class="col-6">
-            <div>
-                <a href="">Purchase Rules</a>
-                <a href="">Questions and Answers</a>
+</div>
+
+
+
+<!-- the Footer part -->
+
+<footer>
+    <div class="footer row">
+        <div class="col-4">
+            <div class="footerLinks">
+                <span><a href="">Purchase Rules</a></span>
+                <span><a href="">Questions and Answers</a></span>
             </div>
 
             <div>
-                <a href="">about us</a>
+                <span><a href="">About Us</a></span>
             </div>
         </div>
 
+        <div class="col-4"></div>
 
-        <div class="col-6">
+        <div class="col-4">
             <img src="images/logos/flower.png" alt="">
-            <p>FLOWERIA</p>
         </div>
     </div>
-</div>
 
 
-<div>
-    <p>All rights of FLOWERIA website are preserved.</p>
-</div>
+    <div>
+        <p>All rights of FLOWERIA website are preserved.</p>
+    </div>
+
+
+    <!-- the tiny arrow -->
+
+    <div class="upScroll">
+        <i class='fas fa-angle-up'></i>
+    </div>
 
 </footer>
 
-
-<div class="upScroll">
-    <!-- icon up arrow -->
-    <i class='fas fa-angle-up'></i>
-</div>
 
 
 </body>

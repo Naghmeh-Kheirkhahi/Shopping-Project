@@ -12,24 +12,31 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150vh;
+    height: 140vh;
     padding: 2rem 8rem;
 }
 
 
-/* navbar */
+/* Navbar Part */
 
 .navbar {
-    background-color:rgb(255, 236, 239);
+    background-color:rgb(255, 244, 245);
     border: 1px solid rgb(255, 236, 239);
-    box-shadow: 0 0 0 gray;
+    box-shadow: 0 0 5px 1px rgb(170, 170, 170);
     text-align: center;
-    padding: 0;
+    padding: 0 1rem ;
+    transition: 1s ease-in-out;
+
 }
 
-
-
-
+.scrolled {
+    max-width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0 8rem;
+}
 
 
 
@@ -45,11 +52,9 @@
     width: 30%;
     background-color: white;
     border-radius: 50%;
-    margin-bottom: -1rem;
-    margin-left: 0.3rem;
-    box-shadow: 0 0 0 gray;
+    margin: 0.2rem 0 -0.8rem 0.4rem;
+    box-shadow: 0 0 3px rgb(130, 130, 130);
 }
-
 
 
 
@@ -82,7 +87,6 @@
 
 
 
-
 .menu ul {
     display: flex;
     justify-content: space-around;
@@ -102,7 +106,7 @@
 
 .menu a:hover {
     color: #f17053 ;
-    transition: all 300ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
 
 
@@ -113,16 +117,187 @@
 
 
 
-
-
-
-
 .logo img {
     width: 100%;
 }
 
 
 
+/* the order Form Part */
+
+.orderForm h1 {
+    font-size: 4.5rem;
+    font-weight: bolder;
+    width: 30%;
+    padding: 10rem 0 2rem 0;
+    color: rgb(88, 16, 125);
+}
+
+.orderForm p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    color: rgb(133, 104, 158);
+}
 
 
 
+form {
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    padding: 1.5rem 0;
+    width: 40%;
+    text-align: center;
+}
+
+form input {
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(190, 190, 190);
+    margin: 0 0.3rem 1.5rem 0.3rem;
+    outline: none;
+}
+
+form button {
+    text-align: center;
+    padding: 0.6rem 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(255, 255, 255) ;
+    background-color: #f17053 ;
+    border: 1px solid #f17053;
+}
+
+
+
+/* How to Work Part */
+
+.howToWork {
+    text-align: center;
+    background-color: rgb(255, 229, 233);
+    padding: 5rem 12rem 3rem 12rem;
+}
+
+
+.howToWork h2 {
+    font-size: 3.2rem;
+    font-weight: bolder;
+    color: rgb(88, 16, 125);
+}
+
+.howToWork h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    padding: 1.5rem 0 5rem 0;
+}
+
+.howToWork p {
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+}
+
+.howToWork h4 {
+    color: rgb(88, 16, 125);
+    font-weight: bolder ;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+.howToWork img {
+    width: 30%;
+}
+
+
+
+
+/* the Products part */
+
+
+
+
+
+
+
+
+
+
+/* ads features */
+
+.features {
+    background-color: #303030;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0 5rem;
+}
+
+.singleFeature {
+    display: flex;
+    padding-left: 8rem;
+}
+
+.singleFeature img {
+    width: 20%;
+}
+
+.singleFeature div {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+
+/* the Footer part */
+
+footer {
+    background-color: #1b1b1b;
+    padding: 1rem 8rem;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 1rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer img {
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
+footer p {
+    padding-top: 1rem;
+}
+
+
+
+/* the tiny arrow */
+
+
+.upScroll {
+    padding: 0 0 0.5rem 0.5rem;
+    text-align: left ;
+}
+
+.upScroll i {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 1rem 1.2rem;
+    font-size: 1.5rem;
+    color: #303030;
+}

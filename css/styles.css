@@ -32,10 +32,10 @@
     box-shadow: 0 0 5px 1px rgb(170, 170, 170);
     text-align: center;
     padding: 0 1rem ;
-    transition: 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
-.scrolledNavbar {
+.menuScroll {
     position: fixed;
     left: 0;
     top: 0;
@@ -142,7 +142,7 @@
     margin: -0.2rem 0.5rem 0 0.1rem;
 }
 
-.scrolledStore {
+.storeScroll {
     margin-top: 4rem;
 }
 
@@ -194,9 +194,44 @@
 
 /* the blog list in the navbar */
 
+.blogList {
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(231 204 255);
+    position: fixed;
+    width: 50%;
+    box-shadow: 0 0 10px 2px rgb(170, 170, 170);
+    margin: -0.2rem 0 0 15rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    height: 70vh; /* so that when the new posts get more, we can scroll this part */
+}
 
 
+.blogScroll {
+    margin-top: 4rem;
+}
 
+
+.blogList h2 {
+    font-weight: bolder;
+    padding: 0;
+}
+
+.blogList img {
+    width: 15%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.posts {
+    padding: 4rem 0 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.posts :last-child {
+    color: rgb(133, 113, 153);
+}
 
 
 
@@ -325,14 +360,19 @@ form button {
     color: rgb(117, 117, 117);
     font-weight: bold;
     font-size: 1.2rem;
+ 
+    transform: scaleX(0);  
+    transition: transform 250ms ease-out;
+    transform-origin: bottom left;
 }
 
 .productsCat a:hover {
     color: rgb(27, 27, 27);
     border-bottom: 2px solid #ad281b;
     padding-bottom: 0.1rem;
-    transition: all 300ms ease-in-out;
-    /* border goes from right to left */
+
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 

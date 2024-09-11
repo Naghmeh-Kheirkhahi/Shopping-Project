@@ -35,13 +35,16 @@ fetch('products.json')
 window.onscroll = function() {
     var navbar = document.getElementById("navbar");
     var storeList = document.getElementById("storeList");
+    var blogList = document.getElementById('blogList');
 
     if (window.pageYOffset > 150) {
-        navbar.classList.add("scrolledNavbar");
-        storeList.classList.add("scrolledStore");
+        navbar.classList.add("menuScroll");
+        storeList.classList.add("storeScroll");
+        blogList.classList.add("blogScroll");
     } else {
-        navbar.classList.remove("scrolledNavbar");
-        storeList.classList.remove("scrolledStore");
+        navbar.classList.remove("menuScroll");
+        storeList.classList.remove("storeScroll");
+        blogList.classList.remove("blogScroll");
     }
 };
 
@@ -51,18 +54,36 @@ window.onscroll = function() {
 
 
 let store = document.querySelector('.store');
+let blog = document.querySelector('.blog');
+
 
 let storeList = document.getElementById('storeList');
+let blogList = document.getElementById('blogList');
+
 
 store.addEventListener('mouseover' , ()=> {
     
     storeList.style.display = 'flex';
+    storeList.style.transition = 'all 1s ease-in-out';
 })
-
 
 store.addEventListener('mouseout' , ()=> {
     
     storeList.style.display = 'none';
+})
+
+
+
+
+blog.addEventListener('mouseover' , ()=> {
+
+    blogList.style.display = 'flex';
+    blogList.style.transition = 'all 1s ease-in-out';
+})
+
+blog.addEventListener('mouseout' , ()=> {
+    
+    blogList.style.display = 'none';
 })
 
 

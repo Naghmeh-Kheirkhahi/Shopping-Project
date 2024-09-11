@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Floweria Shop</title>
@@ -13,8 +13,8 @@
 
 <div class="header">
 
-    <div class="totalNavbar">
-        <div id="navbar" class="navbar row">
+    <div id="navbar" class="container-fluid">
+        <div class="navbar row">
 
             <div class="col-1 cart">
                 <p>0</p>
@@ -43,11 +43,71 @@
                     <li class="store">
                         <a href="">Store</a>
                         <i class='fas fa-angle-down'></i>
+
+                        <!-- the small part of the Store option of the Menubar -->
+                        <div id="storeList" class="storeList row">
+                            <div class="col-3 storeTitle">
+                                <div>
+                                    <p>New Products</p>
+                                    <i class='fas fa-angle-right'></i>
+                                </div>
+                            </div>
+                    
+                            <div class="col-9">
+                                <div class="row newInStore">
+                                    <div class="col-3 p-2">
+                                        <img src="images/rose.jpg" alt="">
+                                        <p>Pink Rose</p>
+                                        <button>More Information</button>
+                                    </div>
+                        
+                                    <div class="col-3 p-2">
+                                        <img src="images/rose.jpg" alt="">
+                                        <p>Pink Rose</p>
+                                        <button>More Information</button>
+                                    </div>
+                    
+                                    <div class="col-3 p-2">
+                                        <img src="images/rose.jpg" alt="">
+                                        <p>Pink Rose</p>
+                                        <button>More Information</button>
+                                    </div>
+                    
+                                    <div class="col-3 p-2">
+                                        <img src="images/rose.jpg" alt="">
+                                        <p>Pink Rose</p>
+                                        <button>More Information</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </li>
     
                     <li class="blog">
                         <a href="">Blog</a>
                         <i class='fas fa-angle-down'></i>
+
+                         <!-- the small part of the Blog option of the Menubar -->
+                        <div id="blogList" class="blogList row">
+                            <h2>New Posts</h2>
+
+                            <div class="d-flex p-0">
+                                <img src="images/rose.jpg" alt="">
+                                <div class="posts">
+                                    <p>Pink Rose</p>
+                                    <p>11 September 2024</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex p-0">
+                                <img src="images/rose.jpg" alt="">
+                                <div class="posts">
+                                    <p>Pink Rose</p>
+                                    <p>11 September 2024</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
     
                     <li><a href="">About Us</a></li>
@@ -59,72 +119,6 @@
     
             <div class="col-2 logo">
                 <a href="#"><img src="images/logos/flower.png" alt=""></a>
-            </div>
-        </div>
-    
-    
-    
-
-        <!-- the small part of the Store option of the Menubar -->
-        <div id="storeList" class="storeList row">
-            <div class="col-3 storeTitle">
-                <div>
-                    <p>New Products</p>
-                    <i class='fas fa-angle-right'></i>
-                </div>
-            </div>
-    
-            <div class="col-9">
-                <div class="row newInStore">
-                    <div class="col-3 p-2">
-                        <img src="images/rose.jpg" alt="">
-                        <p>Pink Rose</p>
-                        <button>More Information</button>
-                    </div>
-        
-                    <div class="col-3 p-2">
-                        <img src="images/rose.jpg" alt="">
-                        <p>Pink Rose</p>
-                        <button>More Information</button>
-                    </div>
-    
-                    <div class="col-3 p-2">
-                        <img src="images/rose.jpg" alt="">
-                        <p>Pink Rose</p>
-                        <button>More Information</button>
-                    </div>
-    
-                    <div class="col-3 p-2">
-                        <img src="images/rose.jpg" alt="">
-                        <p>Pink Rose</p>
-                        <button>More Information</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-        <!-- the small part of the Blog option of the Menubar -->
-        <div id="blogList" class="blogList row">
-            <h2>New Posts</h2>
-
-            <div class="d-flex p-0">
-                <img src="images/rose.jpg" alt="">
-                <div class="posts">
-                    <p>Pink Rose</p>
-                    <p>11 September 2024</p>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex p-0">
-                <img src="images/rose.jpg" alt="">
-                <div class="posts">
-                    <p>Pink Rose</p>
-                    <p>11 September 2024</p>
-                </div>
             </div>
         </div>
     </div>
@@ -389,14 +383,15 @@
         <p>All rights of FLOWERIA website are preserved.</p>
     </div>
 
-
-    <!-- the tiny arrow -->
-
-    <div class="upScroll">
-        <i class='fas fa-angle-up'></i>
-    </div>
-
 </footer>
+
+
+<!-- the tiny arrow -->
+
+<div class="upScroll">
+    <a href="#"><i class='fas fa-angle-up'></i></a>
+</div>
+
 
 
 

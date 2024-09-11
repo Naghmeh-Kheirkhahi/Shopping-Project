@@ -33,16 +33,19 @@ fetch('products.json')
 // when we scroll, the menu changes
 
 window.onscroll = function() {
-    var navbar = document.getElementById("navbar");
+    
+    // var navbar = document.getElementById("navbar");
+    let header = document.querySelector('.header')
     var storeList = document.getElementById("storeList");
     var blogList = document.getElementById('blogList');
 
     if (window.pageYOffset > 150) {
-        navbar.classList.add("menuScroll");
+        header.classList.add("test");
         storeList.classList.add("storeScroll");
         blogList.classList.add("blogScroll");
+
     } else {
-        navbar.classList.remove("menuScroll");
+        header.classList.remove("test");
         storeList.classList.remove("storeScroll");
         blogList.classList.remove("blogScroll");
     }
@@ -55,10 +58,6 @@ window.onscroll = function() {
 
 let store = document.querySelector('.store');
 let blog = document.querySelector('.blog');
-
-
-let storeList = document.getElementById('storeList');
-let blogList = document.getElementById('blogList');
 
 
 store.addEventListener('mouseover' , ()=> {

@@ -17,13 +17,12 @@
     overflow-y: hidden;
 }
 
+.test {
+    padding: 0 !important ;
+}
+
 
 /* Navbar Part */
-
-.totalNavbar {
-    position: fixed;
-    width: 80%;
-}
 
 
 .navbar {
@@ -32,16 +31,15 @@
     box-shadow: 0 0 5px 1px rgb(170, 170, 170);
     text-align: center;
     padding: 0 1rem ;
-    transition: all 1s ease-in-out;
 }
 
-.menuScroll {
+/* .menuScroll {
     position: fixed;
     left: 0;
     top: 0;
     margin: 0;
     padding: 0 9rem;
-}
+} */
 
 
 
@@ -133,13 +131,15 @@
 /* the store list in the navbar */
 
 .storeList {
-    display: none;
+    /* display: none; */
     border-radius: 10px;
     background-color: rgb(231 204 255);
     position: fixed;
-    width: 80%;
+    width: 80vw;
     box-shadow: 0 0 10px 2px rgb(170, 170, 170);
-    margin: -0.2rem 0.5rem 0 0.1rem;
+    /* margin: 2rem 0 0 8.5rem; */
+    top: 8rem;
+    left: 5rem;
 }
 
 .storeScroll {
@@ -447,7 +447,9 @@ footer p {
 
 .upScroll {
     padding: 0 0 0.5rem 0.5rem;
-    text-align: left ;
+    bottom: 0;
+    left: 1rem;
+    position: fixed;
 }
 
 .upScroll i {

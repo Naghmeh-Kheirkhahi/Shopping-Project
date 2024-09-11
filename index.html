@@ -13,54 +13,99 @@
 
 <div class="header">
 
-    <div id="navbar" class="navbar row">
+    <div class="totalNavbar">
+        <div id="navbar" class="navbar row">
 
-        <div class="col-1 cart">
-            <p>0</p>
-            <i class='fas fa-shopping-cart'></i>
-        </div>
-
-
-        <div class="col-2 phone">
-
-            <div>
-                <i class="fa fa-phone"></i>
+            <div class="col-1 cart">
+                <p>0</p>
+                <i class='fas fa-shopping-cart'></i>
             </div>
-
-            <div>
-                <p>015758493654</p>
-                <p>24/7 Availibility</p>
+    
+    
+            <div class="col-2 phone">
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                </div>
+    
+                <div>
+                    <p>015758493654</p>
+                    <p>24/7 Availibility</p>
+                </div>
+            </div>
+        
+            
+    
+            <div class="col-7 menu">
+                <ul>
+                    <li class="home"><a href="">Home</a></li>
+    
+                    <li class="store">
+                        <a href="">Store</a>
+                        <i class='fas fa-angle-down'></i>
+                    </li>
+    
+                    <li>
+                        <a href="">Blog</a>
+                        <i class='fas fa-angle-down'></i>
+    
+                        <div>
+                            <!-- new blogs or posts -->
+                        </div>
+                    </li>
+    
+                    <li><a href="">About Us</a></li>
+    
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+    
+    
+            <div class="col-2 logo">
+                <a href="#"><img src="images/logos/flower.png" alt=""></a>
             </div>
         </div>
     
+    
+    
+        <div id="storeList" class="storeList row">
+            <div class="col-3 storeTitle">
+                <div>
+                    <p>New Products</p>
+                    <i class='fas fa-angle-right'></i>
+                </div>
+            </div>
+    
+            <div class="col-9">
+                <div class="row newInStore">
+                    <div class="col-3 p-2">
+                        <img src="images/rose.jpg" alt="">
+                        <p>Pink Rose</p>
+                        <button>More Information</button>
+                    </div>
         
-
-        <div class="col-7 menu">
-            <ul>
-                <li class="home"><a href="">Home</a></li>
-
-                <li>
-                    <a href="">Store</a>
-                    <i class='fas fa-angle-down'></i>
-                </li>
-
-                <li>
-                    <a href="">Blog</a>
-                    <i class='fas fa-angle-down'></i>
-                </li>
-
-                <li><a href="">About Us</a></li>
-
-                <li><a href="">Contact Us</a></li>
-            </ul>
+                    <div class="col-3 p-2">
+                        <img src="images/rose.jpg" alt="">
+                        <p>Pink Rose</p>
+                        <button>More Information</button>
+                    </div>
+    
+                    <div class="col-3 p-2">
+                        <img src="images/rose.jpg" alt="">
+                        <p>Pink Rose</p>
+                        <button>More Information</button>
+                    </div>
+    
+                    <div class="col-3 p-2">
+                        <img src="images/rose.jpg" alt="">
+                        <p>Pink Rose</p>
+                        <button>More Information</button>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-        <div class="col-2 logo">
-            <a href="#"><img src="images/logos/flower.png" alt=""></a>
-        </div>
-
     </div>
+
 
 
     <div class="orderForm">
@@ -117,21 +162,26 @@
 
 
 
+<!-- extre Div -->
+
+<div class="pt-4 pb-4">
+
+</div>
+
+
+
 
 <!-- the Products part has been written in JS -->
 
-<div id="products"></div>
+<div class="productsCat">
 
-<div class="Products">
-
-    <p>Product categories</p>
-
-    <h3>The latest products</h3>
-
+    <p class="productTitle">Product Categories</p>
+    <br>
+    <h3 class="productSubTitle">The Latest Products</h3>
+    <br>
 
 
-
-    <div>
+    <div >
         <ul>
             <li><a href="">BEN SAI</a></li>
             <li><a href="">BOUQUET</a></li>
@@ -139,37 +189,35 @@
         </ul>
     </div>
 
+    <br>
+
+    <div id="products"></div>
 
 
 
-    <div class="BENSAI">
+
+
+
+    <!-- <div class="BENSAI">
         <div class="row BENSAI1">
             <div class="col-3 product">
                 <img src="" alt="">
-                <!-- img tag or bg image need to be -->
 
-                <div class="productDetail">
-                    <!-- display none and by hover block  -->
-                     <!-- bg color gray with opacity -->
-                     <div class="row">
-                        <div class="col-2">
-                            <i>shuffle and then changes to tick</i>
-                            <i>search</i>
-                            <i>heart and then changes to tick</i>
-                        </div>
+                <div class="productDetail row">
+                    <div class="col-2">
+                        <i>shuffle and then changes to tick</i>
+                        <i>search</i>
+                        <i>heart and then changes to tick</i>
+                    </div>
 
-                        <div class="col-10">
-                            <p>name</p>
-                            <p>type</p>
-                            <p>price</p>
+                    <div class="col-10">
+                        <p>name</p>
+                        <p>type</p>
+                        <p>price</p>
 
-                            <button>Add to Cart and then changes to cart icon by hover</button>
-                        </div>
-
-                     </div>
-
+                        <button>Add to Cart and then changes to cart icon by hover</button>
+                    </div>
                 </div>
-
             </div>
 
             <div class="col-3">
@@ -203,12 +251,12 @@
                 <img src="" alt="">
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
 
-    <div class="BOUQUET">
+    <!-- <div class="BOUQUET">
         <div class="row BOUQUET1">
 
         </div>
@@ -217,12 +265,12 @@
         <div class="row BOUQUET2">
 
         </div>
-    </div>
+    </div> -->
 
 
 
 
-    <div class="HomeFLOWER">
+    <!-- <div class="HomeFLOWER">
         <div class="row HomeFLOWER1">
 
         </div>
@@ -231,17 +279,18 @@
         <div class="row HomeFLOWER2">
             
         </div>
-    </div>
-
+    </div> -->
 </div>
+
 
 
 
 <!-- extre Div -->
 
-<div class="pt-3 pb-3">
+<div class="pt-4 pb-4">
 
 </div>
+
 
 
 
@@ -278,11 +327,13 @@
 
 
 
+
 <!-- extre Div -->
 
 <div class="pt-3 pb-3">
 
 </div>
+
 
 
 

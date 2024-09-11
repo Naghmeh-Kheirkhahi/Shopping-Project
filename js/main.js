@@ -27,16 +27,47 @@ fetch('products.json')
 
 
 
+
+
+
 // when we scroll, the menu changes
 
 window.onscroll = function() {
     var navbar = document.getElementById("navbar");
+    var storeList = document.getElementById("storeList");
+
     if (window.pageYOffset > 150) {
-        navbar.classList.add("scrolled");
+        navbar.classList.add("scrolledNavbar");
+        storeList.classList.add("scrolledStore");
     } else {
-        navbar.classList.remove("scrolled");
+        navbar.classList.remove("scrolledNavbar");
+        storeList.classList.remove("scrolledStore");
     }
 };
+
+
+
+// hide and show the store list of the store part
+
+
+let store = document.querySelector('.store');
+
+let storeList = document.getElementById('storeList');
+
+store.addEventListener('mouseover' , ()=> {
+    
+    storeList.style.display = 'flex';
+})
+
+
+store.addEventListener('mouseout' , ()=> {
+    
+    storeList.style.display = 'none';
+})
+
+
+
+
 
 
 

@@ -13,11 +13,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 140vh;
-    padding: 2rem 8rem;
+    padding: 2rem 9rem;
+    overflow-y: hidden;
 }
 
 
 /* Navbar Part */
+
+.totalNavbar {
+    position: fixed;
+    width: 80%;
+}
+
 
 .navbar {
     background-color:rgb(255, 244, 245);
@@ -26,16 +33,14 @@
     text-align: center;
     padding: 0 1rem ;
     transition: 1s ease-in-out;
-
 }
 
-.scrolled {
-    max-width: 100%;
+.scrolledNavbar {
     position: fixed;
     left: 0;
     top: 0;
     margin: 0;
-    padding: 0 8rem;
+    padding: 0 9rem;
 }
 
 
@@ -123,18 +128,93 @@
 
 
 
+
+
+/* the store list in the navbar */
+
+.storeList {
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(231 204 255);
+    position: fixed;
+    width: 80%;
+    box-shadow: 0 0 10px 2px rgb(170, 170, 170);
+    margin: -0.2rem 0.5rem 0 0.1rem;
+}
+
+.scrolledStore {
+    margin-top: 4rem;
+}
+
+
+
+.storeTitle {
+    background-color: #f17053;
+    padding: 0;
+}
+
+.storeTitle div {
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+
+.newInStore {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.newInStore img {
+    width: 100%;
+    height: 45vh;
+    border-radius: 10px;
+}
+
+.newInStore p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.newInStore button {
+    background-color: #f17053;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 1px solid #f17053;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+/* the blog list in the navbar */
+
+
+
+
+
+
+
+
+
+
 /* the order Form Part */
 
 .orderForm h1 {
     font-size: 4.5rem;
     font-weight: bolder;
-    width: 30%;
+    width: 35%;
     padding: 10rem 0 2rem 0;
     color: rgb(88, 16, 125);
 }
 
 .orderForm p {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-weight: bold;
     padding-bottom: 2rem;
     color: rgb(133, 104, 158);
@@ -215,9 +295,45 @@ form button {
 
 /* the Products part */
 
+.productsCat {
+    background-color: rgb(255, 229, 233);
+    padding: 4rem 2rem;
+    text-align: center;
+}
 
+.productTitle {
+    color: rgb(133, 104, 158);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
+.productSubTitle {
+    color: rgb(88, 16, 125);
+    font-size: 3rem;
+    font-weight: bolder;
+}
 
+.productsCat ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 27rem;
+}
+
+.productsCat a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.productsCat a:hover {
+    color: rgb(27, 27, 27);
+    border-bottom: 2px solid #ad281b;
+    padding-bottom: 0.1rem;
+    transition: all 300ms ease-in-out;
+    /* border goes from right to left */
+}
 
 
 

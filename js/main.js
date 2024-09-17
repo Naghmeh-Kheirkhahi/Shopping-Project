@@ -30,60 +30,73 @@ fetch('products.json')
 
 
 
-// when we scroll, the menu changes
+// when we scroll, the menu changes ????????
 
 window.onscroll = function() {
     
-    // var navbar = document.getElementById("navbar");
-    let header = document.querySelector('.header')
-    var storeList = document.getElementById("storeList");
-    var blogList = document.getElementById('blogList');
+    let navbar = document.querySelector('.navbar')
 
     if (window.pageYOffset > 150) {
-        header.classList.add("test");
-        storeList.classList.add("storeScroll");
-        blogList.classList.add("blogScroll");
-
+        navbar.classList.add("navbarScroll");
     } else {
-        header.classList.remove("test");
-        storeList.classList.remove("storeScroll");
-        blogList.classList.remove("blogScroll");
+        navbar.classList.remove("navbarScroll");   
     }
 };
 
 
 
-// hide and show the store list of the store part
 
 
-let store = document.querySelector('.store');
-let blog = document.querySelector('.blog');
 
+// the store list of the store part of the menu
+
+let store = document.getElementById('store');
 
 store.addEventListener('mouseover' , ()=> {
-    
-    storeList.style.display = 'flex';
-    storeList.style.transition = 'all 1s ease-in-out';
+    document.getElementById('storeMenu').style.display = 'block';
 })
 
 store.addEventListener('mouseout' , ()=> {
-    
-    storeList.style.display = 'none';
+    document.getElementById('storeMenu').style.display = 'none';
 })
 
 
 
+// the blog list of the blog part of the menu
+
+let blog = document.getElementById('blog');
 
 blog.addEventListener('mouseover' , ()=> {
-
-    blogList.style.display = 'flex';
-    blogList.style.transition = 'all 1s ease-in-out';
+    document.getElementById('blogMenu').style.display = 'block';
 })
 
 blog.addEventListener('mouseout' , ()=> {
-    
-    blogList.style.display = 'none';
+    document.getElementById('blogMenu').style.display = 'none';
 })
+
+
+
+// the list of the products on the store part of the menu
+
+let storeTitle = document.querySelector('.storeTitle');
+
+storeTitle.addEventListener('mouseover' , ()=> {
+    document.querySelector('.storeProducts').style.display = 'block';
+})
+
+storeTitle.addEventListener('mouseout' , ()=> {
+    document.querySelector('.storeProducts').style.display = 'none';
+})
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -97,3 +110,20 @@ document.getElementById('formBtn').addEventListener('click' , ()=> {
 
     alert('Your Request as an Order has been sent.')
 })
+
+
+
+
+// when we scroll, the upscroll icon will be hidden 
+
+window.onscroll = function() {
+    let upScroll = document.querySelector('.upScroll');
+
+    if (window.pageYOffset < 150) {
+        upScroll.classList.add("hide");
+    }
+
+    else {
+        upScroll.classList.remove("hide");
+    }
+}

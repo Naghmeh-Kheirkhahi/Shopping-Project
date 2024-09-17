@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="test.css">
   <title>Document</title>
@@ -11,23 +12,25 @@
 <body>
   
 
-  <div class="container">
-    <div class="navbar">
+  <!-- <div class="container"> -->
+    <div id="navbar" class="navbar">
 
-      <div class="cart">
-        <p>0</p>
-        <i class='fas fa-shopping-cart'></i>
-      </div>
-
-
-      <div class="phone">
-        <div>
-            <i class="fa fa-phone"></i>
+      <div class="cartPhone">
+        <div class="cart">
+          <p>0</p>
+          <i class='fas fa-shopping-cart'></i>
         </div>
-
-        <div>
-            <p>015758493654</p>
-            <p>24/7 Availibility</p>
+  
+  
+        <div class="phone">
+          <div>
+              <i class="fa fa-phone"></i>
+          </div>
+  
+          <div class="ps-3">
+              <p>015758493654</p>
+              <p>24/7 Availibility</p>
+          </div>
         </div>
       </div>
 
@@ -35,9 +38,9 @@
       <div class="menu">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a class="home" href="#">Home</a></li>
       
-            <li>
+            <li id="store">
               <a href="#">
                 Store
                 <i class='fas fa-angle-down'></i>
@@ -62,14 +65,14 @@
                   </div>
 
                   <div>
-                    <p>Apartment Flower Products</p>
+                    <p>Apartment Products</p>
                     <i class='fas fa-angle-right'></i>
                   </div>
                 </div>
 
 
-                <div class="col-9">
-                  <div class="row storeProducts">
+                <div class="col-9 storeProducts">
+                  <div class="row">
                     <div class="col-3">
                         <img src="images/rose.jpg" alt="">
                         <p>Pink Rose</p>
@@ -98,20 +101,21 @@
               </div>
             </li>
       
-            <li>
+            <li id="blog">
               <a href="#">
                 Blog
                 <i class='fas fa-angle-down'></i>
               </a>
 
-              <!-- the store menu under the store part of the main menu navbar -->
+              <!-- the blog menu under the blog part of the main menu navbar -->
               <div id="blogMenu" class="blogMenu">
                 <h2>New Posts</h2>
 
                 <div class="posts">
                   <img src="images/rose.jpg" alt="">
 
-                  <div>
+                  <div class="postsText">
+                      <br><br><br><br>
                       <p>Pink Rose</p>
                       <p>11 September 2024</p>
                   </div>
@@ -122,7 +126,8 @@
                 <div class="posts">
                     <img src="images/rose.jpg" alt="">
                     
-                    <div>
+                    <div class="postsText">
+                        <br><br><br><br>
                         <p>Pink Rose</p>
                         <p>11 September 2024</p>
                     </div>
@@ -141,12 +146,26 @@
       <div class="logo">
         <a href="#"><img src="images/logos/flower.png" alt=""></a>
       </div>
-
     </div>
-  </div>
+  <!-- </div> -->
 
 
+
+<br><br><br><br><br><br><br><br><br><br>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
+<div><img src="images/rose.jpg" alt=""></div>
 
 
 </body>
+
+<script src="js/main.js"></script>
 </html>

@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 244, 245);
+    border: 1px solid rgb(255, 236, 239);
+    box-shadow: 0 0 5px 1px rgb(192, 192, 192);
+    text-align: center;
+    padding: 0.5rem 1.5rem ;
+    align-items: center;
+    margin: 2rem 10rem;
+}
+
+@keyframes navAnim {
+    0%   {left: 0px; top: -100px;}
+    100% {left: 0px; top: 0px;}
+}
+
+.navbarScroll {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    padding: 0.5rem 12rem;
+    animation: navAnim 1s;
+    animation-direction: normal;
+}
+
+
+
+
+.cartPhone {
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+}
+
+.cart i {
+    font-size: 1.5rem;
+    border: 5px solid #f17053;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.cart p {
+    width: 35%;
+    font-size: 0.8rem;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0.1rem 0 -0.5rem 0.1rem;
+    box-shadow: 0 0 3px 1px rgb(130, 130, 130);
+}
+
+
+
+.phone {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.phone i {
+    font-size: 1.8rem;
+    color: #f17053;
+}
+
+
+.phone p:first-child {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.phone p:last-child {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0 1rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-weight: bold;  
+}
+
+nav ul i {
+    font-size: 0.8rem;
+}
+
+.home {
+    color: #f17053 ;
+}
+
+nav ul a:hover {
+    color: #f17053 ;
+    transition: 300ms ease-in-out;
+}
+
+
+.logo img {
+    width: 150px;
+}
+
+
+
+/* the store list from the menu */
+
+.storeMenu {
+    /* position: fixed; */
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 2rem 10rem 0 10rem;
+    border-radius: 10px;
+    background-color:rgb(255, 244, 245);
+    box-shadow: 0 0 5px 1px rgb(130, 130, 130);
+    display: none;
+}
+
+.storeTitle {
+    padding: 0;
+    background-color: #f17053;
+}
+
+.storeTitle div {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.storeTitle div i {
+    padding-top: 0.3rem;
+}
+
+.storeTitle div:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+/* .storeTitle div:hover + .storeProducts {
+    display: flex;
+} */
+
+
+
+.storeProducts {
+    display: none;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background-color:rgb(255, 231, 233);
+    position: absolute;
+    z-index: 1;
+}
+
+.storeProducts img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.storeProducts p {
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.storeProducts button {
+    background-color: #f17053;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: 1px solid #f17053;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+
+
+
+/* the store list from the menu */
+
+.blogMenu {
+    /* position: fixed; */
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    text-align: left;
+    border-radius: 10px;
+    background-color:rgb(255, 244, 245);
+    box-shadow: 0 0 10px 2px rgb(170, 170, 170);
+    padding: 1rem 2rem;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 2rem 0 0 25rem;
+    display: none;
+}
+
+.blogMenu h2 {
+    font-weight: bolder;
+}
+
+.blogMenu img {
+    width: 20%;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.posts {
+    display: flex;
+    align-items: center;
+}
+
+.postsText {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(111, 111, 111);
+    /* padding: 9rem 0 0 1rem; */
+    padding-left: 1rem;
+}

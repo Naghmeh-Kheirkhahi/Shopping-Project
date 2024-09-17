@@ -25,213 +25,9 @@
 /* Navbar Part */
 
 
-.navbar {
-    background-color:rgb(255, 244, 245);
-    border: 1px solid rgb(255, 236, 239);
-    box-shadow: 0 0 5px 1px rgb(170, 170, 170);
-    text-align: center;
-    padding: 0 1rem ;
-}
-
-/* .menuScroll {
-    position: fixed;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0 9rem;
-} */
 
 
 
-.cart i {
-    font-size: 1.3rem;
-    border: 5px solid #f17053;
-    border-radius: 50%;
-    padding: 0.5rem;
-    cursor: pointer;
-}
-
-.cart p {
-    width: 30%;
-    background-color: white;
-    border-radius: 50%;
-    margin: 0.2rem 0 -0.8rem 0.4rem;
-    box-shadow: 0 0 3px rgb(130, 130, 130);
-}
-
-
-
-.phone {
-    display: flex;
-    justify-content: space-around;
-    cursor: pointer;
-}
-
-.phone i {
-    font-size: 1.7rem;
-    color: #f17053;
-    margin-top: 0.5rem;
-    margin-left: 1.5rem;
-}
-
-
-.phone p:first-child {
-    font-weight: bolder;
-    font-size: 1rem;
-    margin: 0;
-}
-
-.phone p:last-child {
-    color: gray;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin: 0;
-}
-
-
-
-.menu ul {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem 6rem 0 6rem;
-
-}
-
-.menu a {
-    text-decoration: none;
-    color: rgb(50, 50, 50);
-    font-weight: bold;
-}
-
-.home a {
-    color: #f17053 ;
-}
-
-.menu a:hover {
-    color: #f17053 ;
-    transition: 300ms ease-in-out;
-}
-
-
-.menu i {
-    margin-bottom: -0.2rem;
-    color: rgb(126, 126, 126);
-}
-
-
-
-.logo img {
-    width: 100%;
-}
-
-
-
-
-
-/* the store list in the navbar */
-
-.storeList {
-    /* display: none; */
-    border-radius: 10px;
-    background-color: rgb(231 204 255);
-    position: fixed;
-    width: 80vw;
-    box-shadow: 0 0 10px 2px rgb(170, 170, 170);
-    /* margin: 2rem 0 0 8.5rem; */
-    top: 8rem;
-    left: 5rem;
-}
-
-.storeScroll {
-    margin-top: 4rem;
-}
-
-
-
-.storeTitle {
-    background-color: #f17053;
-    padding: 0;
-}
-
-.storeTitle div {
-    font-weight: bold;
-    background-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 1rem 0.5rem 1rem;
-}
-
-.newInStore {
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.newInStore img {
-    width: 100%;
-    height: 45vh;
-    border-radius: 10px;
-}
-
-.newInStore p {
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding-top: 1rem;
-}
-
-.newInStore button {
-    background-color: #f17053;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    border: 1px solid #f17053;
-    border-radius: 20px;
-    padding: 0.5rem 1rem;
-}
-
-
-
-
-
-/* the blog list in the navbar */
-
-.blogList {
-    display: none;
-    border-radius: 10px;
-    background-color: rgb(231 204 255);
-    position: fixed;
-    width: 50%;
-    box-shadow: 0 0 10px 2px rgb(170, 170, 170);
-    margin: -0.2rem 0 0 15rem;
-    padding: 1.5rem 1.5rem 0 1.5rem;
-    height: 70vh; /* so that when the new posts get more, we can scroll this part */
-}
-
-
-.blogScroll {
-    margin-top: 4rem;
-}
-
-
-.blogList h2 {
-    font-weight: bolder;
-    padding: 0;
-}
-
-.blogList img {
-    width: 15%;
-    height: 80%;
-    border-radius: 10px;
-}
-
-.posts {
-    padding: 4rem 0 0 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.posts :last-child {
-    color: rgb(133, 113, 153);
-}
 
 
 
@@ -376,21 +172,25 @@ form button {
     color: rgb(117, 117, 117);
     font-weight: bold;
     font-size: 1.2rem;
- 
-    /* transform: scaleX(0);  
-    transition: transform 250ms ease-out;
-    transform-origin: bottom left; */
+    display: inline-block;
 }
 
 .productsCat a:hover {
     color: rgb(27, 27, 27);
-    border-bottom: 2px solid #ad281b;
-    padding-bottom: 0.1rem;
-
-    /* transform: scaleX(1);
-    transform-origin: bottom left; */
 }
 
+.productsCat a:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #ad281b;
+    transition: 500ms;
+}
+
+.productsCat a:hover:after {
+    width: 100%;
+}
 
 
 
@@ -440,6 +240,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 2rem 0 1rem 0;
+    align-items: center;
 }
 
 footer a {
@@ -448,7 +249,7 @@ footer a {
 }
 
 footer img {
-    width: 60%;
+    width: 50%;
     padding-bottom: 1rem;
 }
 
@@ -473,5 +274,14 @@ footer p {
     border-radius: 50%;
     padding: 1rem 1.2rem;
     font-size: 1.5rem;
-    color: #303030;
+    color: #2d2d2d;
+}
+
+.upScroll i:hover {
+    color: #4d4d4d;
+}
+
+.hide {
+    transition: all 500ms ease;
+    left: -5rem;
 }
